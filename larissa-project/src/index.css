@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kameron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+
+
+body {
+    height: fit-content;
+    min-width: 100%;
+    
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.background {
+    background: url('./images/background.jpg');
+    margin: 0;
+    height: 100vh;
+    width: 100%;    
+}
+
+.imagem {
+    border-radius: 50%;
+}
+
+.linha {
+position: absolute;
+width: 100%;
+height: 0px;
+left: 0px;
+top: 109px;
+
+background: #D9D9D9;
+border: 2px solid #DA8BDA;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(0.12deg);
+}
+
+.color {
+    font-family: 'Great Vibes', cursive;
+}
+
+.ola {
+    color: #E46E6E;
+    font-family: 'Kameron', serif;
+}
+
+.paragrafo {
+    font-family: 'Kite One', sans-serif;
+    color: #584A4A;
+}
+
+.larissImg {
+    margin-top: -50px;
+} 
+
+.relaxante {
+    border-radius: 50px;
+}
+
+
+ @media screen and (max-width: 800px) {
+    
+  
+    background {
+        height: 100vh;
+    }
+
+    navegacao {
+      
+        flex-direction: column;
+        align-items: space-evenly;
+        height: 50vh;
+        width: 50vh;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: space-evenly;
+        height: 50vh;
+        width: 50vh;
+    }
+
+
+  
+    /* TODO */
+  }
